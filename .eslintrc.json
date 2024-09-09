@@ -1,0 +1,17 @@
+{
+    "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:react/recommended", "plugin:react-hooks/recommended", "prettier"],
+    "rules": {
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+
+        "no-unused-vars": "off",
+        "eqeqeq": "error",
+        "max-depth": ["off", 4],
+        "max-lines": ["off", 300],
+        "no-console": "warn",
+        "no-else-return": "error",
+        "no-var": "error",
+        "no-useless-return": "error",
+        "require-await": "error"
+    }
+}
